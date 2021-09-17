@@ -4,6 +4,16 @@
 
 }
 
+.flex-container { 
+    display:flex;
+    flex-direction:row;
+    min: height 80px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width:100vh;
+    justify-content: flex-end;
+ } 
+
 .highlight:hover {
     color:teal;
     font-family:monospace;
@@ -11,9 +21,53 @@
 }
 
 .card {
-    border:5px dashed white;
+    border:dashed white;
     color:purple;
+    width:300px;
+    height:250px;
 
+}
+
+.card:hover {
+    box-shadow: 2px 2px 5px purple, -2px -2px 5px purple ;
+  }
+
+.card h2{
+    display:flex;
+    top:-10px;
+    margin:0;
+    padding:0;
+    border:solid white;
+    border-radius: 5px;
+    width:90%;
+    z-index:2;
+}
+
+.card h3 {
+    padding:5px;
+    width:90%;
+    font-size:16px;
+}
+
+.card p{
+    user-select:all;
+    font-family: monospace;
+    border-radius:5px;
+    background-image:linear-gradient(purple, blue);
+    color:white;
+    display:flex;
+    height:60%;
+    width:90%;
+    margin:0 auto;
 
 
 }
+
+.card p::selection {
+    background: tomato;
+    color: teal;
+    font-weight: bold;
+    font-family: monospace;
+
+}
+
