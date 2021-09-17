@@ -102,3 +102,9 @@ header {
     .card {
       width: 100%;
 }
+
+.footer {
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
