@@ -40,34 +40,47 @@
         </div>
 
         <div class="card">
-            <h2>Flexbox Row</h2>
-            <h3>Use this to create a Flexbox coulmn layout.</h3>
-            <p class="highlight">.column {
-                display: flex;
-                flex-direction: column;
-            }
-            </p>
-        </div>
-
-        <div class="card">
             <h2>CSS Grid Layout</h2>
-            <h3>Use these three properties to create a Flexbox row layout.</h3>
-            <p class="highlight">.row {
-                display: flex;
-                flex-direction: row;
-                flex-wrap:wrap;
-            }
+            <h3>Build a 12-column layout using CSS grid.</h3>
+            <p class="highlight">
+                .grid { <br>
+                    display:grid; <br>
+                    width:100%; <br>
+                    grid-template-columns: <br>
+                repeat(12, 1fr); <br>
+                }
             </p>
         </div>
 
         <div class="card">
-            <h2>Flexbox Row</h2>
-            <h3>Use these three properties to create a Flexbox row layout.</h3>
-            <p class="highlight">.row {
-                display: flex;
-                flex-direction: row;
-                flex-wrap:wrap;
-            }
+            <h2>Linear Gradients</h2>
+            <h3>This will create a background linear gradient from top to bottom.</h3>
+            <p class="highlight">
+                .linear-gradient-background {
+                    background-image: linear- <br>
+                gradient( <br>
+                    rgba(232, 102, 236, 0.3), 0% <br>
+                    rgba(232, 102, 236, 0.6), 100% <br>
+                   ); <br>
+                }
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>Box Transition Glow</h2>
+            <h3>Use transition and box shadows to glow on hover.</h3>
+            <p class="highlight">
+                .code-card .card-header { <br>
+                    border-radius:8px; <br>
+                    transition: all 0.5s ease-in- <br>
+                    out; <br>
+                    } <br>
+                .code-card:hover, <br>
+                .code-card:hover .card-header { <br>
+                    box-shadow: inset 0px 0px 8px  <br>
+                rgba(232, 102, 236, 1), 0 0 15px <br>
+                rgba(232, 102, 236, 1);l <br>
+                }
             </p>
         </div>
 

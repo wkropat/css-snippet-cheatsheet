@@ -31,7 +31,7 @@ main {
  } 
 
 .highlight:hover {
-    color:--teal;
+    color:var(--teal);
     font-family:monospace;
 
 }
