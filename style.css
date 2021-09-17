@@ -1,0 +1,19 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:black;
+
+}
+
+.highlight:hover {
+    color:teal;
+    font-family:monospace;
+
+}
+
+.card {
+    border:5px dashed white;
+    color:purple;
+
+
+
+}
